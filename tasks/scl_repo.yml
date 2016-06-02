@@ -1,0 +1,12 @@
+---
+
+- name: Python SCL | ensure scl-utils are installed
+  yum:
+    name: "{{ item }}"
+    state: installed
+  with_items: python27_scl_scl_utils_packages
+
+- name: Python 2.7 SCL | install Python 2.7 scl repository
+  yum:
+    name: "{{ python27_scl_scl_repo_url }}"
+    state: installed

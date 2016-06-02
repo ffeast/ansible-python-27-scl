@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Victor Cabral
+  description: Provides an role to install python27 from the Software Collection Lists.
+  company: CFPB
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: EL
+  versions:
+    - 7
+  categories:
+    - development
+dependencies: []

@@ -1,0 +1,7 @@
+---
+
+- name: Python 2.7 SCL | install python 2.7 packages
+  yum:
+    name: "{{ item }}"
+    state: installed
+  with_items: python27_scl_install_packages

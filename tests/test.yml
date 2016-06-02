@@ -1,0 +1,6 @@
+---
+
+- hosts: centos7
+  remote_user: root
+  roles:
+    - vccabral.ansible-python-27-scl

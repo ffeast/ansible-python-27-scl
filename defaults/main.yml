@@ -2,7 +2,7 @@
 python27_scl_scl_utils_packages:
   - scl-utils
 
-python27_scl_scl_repo_url: "https://www.softwarecollections.org/en/scls/rhscl/python27/epel-{{ ansible_distribution_major_version }}-{{ ansible_architecture }}/download/rhscl-python27-epel-{{ ansible_distribution_major_version }}-{{ ansible_architecture }}.noarch.rpm"
+python27_scl_scl_repo_url: "https://www.softwarecollections.org/repos/rhscl/python27/epel-{{ ansible_distribution_major_version }}-{{ ansible_architecture }}/noarch/rhscl-python27-epel-{{ ansible_distribution_major_version }}-{{ ansible_architecture }}-1-2.noarch.rpm"
 
 python27_scl_install_packages:
   - python27
